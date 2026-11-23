@@ -734,6 +734,12 @@ var presets = []PresetDef{
 	{ID: "aigocode", Name: "AIGoCode", Icon: "aigocode", Kind: KindRelay,
 		Chat: "https://api.aigocode.dev/v1", Responses: "https://api.aigocode.dev/v1", Anthropic: "https://api.aigocode.dev",
 		Website: "https://www.aigocode.net/invite/MAGPIE?utm_source=magpie&utm_medium=app", KeysURL: "https://www.aigocode.net/dashboard/keys"},
+	// HRouter: pay-as-you-go Sub2API relay serving Chat and Responses at /v1
+	// and Anthropic Messages at the root; per-key model allowlists come from
+	// /v1/models and CNY key balances from /v1/usage (balance.go).
+	{ID: "hrouter", Name: "HRouter", Icon: "hrouter-color", Kind: KindRelay,
+		Chat: "https://hrouter.net/v1", Responses: "https://hrouter.net/v1", Anthropic: "https://hrouter.net",
+		Website: "https://hrouter.net", KeysURL: "https://hrouter.net/keys"},
 
 	// Jev answers no conversation: it decides which of a routing group's
 	// models takes a turn, and how hard it thinks

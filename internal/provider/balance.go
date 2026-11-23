@@ -90,6 +90,8 @@ func balanceSourceOf(p Provider) (balanceSource, bool) {
 				return balanceSource{"https://aihubmix.com/api/user/self", readAiHubMixAccount, p.BalanceToken, nil, nil}, true
 			}
 			return balanceSource{aiHubMixKeyRemain, readAiHubMix, "", nil, nil}, true
+		case "hrouter.net":
+			return balanceSource{"https://hrouter.net/v1/usage", func(b []byte) (string, error) { return readBalancePath(b, "¥remaining") }, "", nil, nil}, true
 		}
 	}
 	return balanceSource{}, false
