@@ -4,6 +4,9 @@
 
 # magpie
 
+> ⚡ **AI 编程算力支持 — [HRouter](https://hrouter.net/)**：一把 API Key 按量直连 **Claude、OpenAI Codex / GPT、Google Gemini、DeepSeek**（零月费订阅），一键接入 [Claude Code](https://hrouter.net/docs/claude-code/) · [Codex CLI](https://hrouter.net/docs/codex/) · [Gemini CLI](https://hrouter.net/docs/gemini-cli/) · [DeepSeek](https://hrouter.net/docs/deepseek/) · [实时模型价格](https://hrouter.net/models/)
+
+
 ### 所有 Agent 的模型，一处搞定。
 
 **Claude Code 跑 Kimi，Codex 跑 DeepSeek，Gemini CLI 跑 GLM，OpenCode 用你的 ChatGPT 订阅。**<br>
