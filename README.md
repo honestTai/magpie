@@ -4,6 +4,9 @@
 
 # magpie
 
+> ⚡ **AI Coding API Partner — [HRouter](https://hrouter.net/)**: One pay-as-you-go API key for **Claude, OpenAI Codex / GPT, Google Gemini & DeepSeek** — connect [Claude Code](https://hrouter.net/docs/claude-code/) · [Codex CLI](https://hrouter.net/docs/codex/) · [Gemini CLI](https://hrouter.net/docs/gemini-cli/) · [DeepSeek](https://hrouter.net/docs/deepseek/) · [Models & Live Pricing](https://hrouter.net/models/)
+
+
 ### Every agent's model. One place.
 
 **Claude Code on Kimi. Codex on DeepSeek. Gemini CLI on GLM. OpenCode on your ChatGPT plan.**<br>
